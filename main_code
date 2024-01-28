@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmad Sharjeel's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .skill {
+            background-color: #007BFF;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 4px;
+            margin-right: 8px;
+            margin-bottom: 8px;
+        }
+
+        .achievements {
+            color: green;
+        }
+
+        .future-goals {
+            color: #007BFF;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Ahmad Sharjeel's Portfolio</h1>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am Ahmad Sharjeel, a passionate computer science student with a strong academic foundation. Currently
+            pursuing B-Tech in Computer Science at the College of Engineering, Roorkee, I am driven by a commitment to
+            excellence as reflected in my recognition with the Kamla Nehru Puruskar by the state government of
+            Uttarakhand.
+        </p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p>
+            <strong>B-Tech in Computer Science</strong><br>
+            College of Engineering, Roorkee<br>
+            [Year of Enrollment] - Present<br>
+            Relevant Courses: Data Structures, Object-Oriented Programming, Database Management Systems
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <strong>Tic-Tac-Toe Game in C++ (Visual Studio)</strong><br>
+                Description: Implemented a basic level Tic-Tac-Toe game using functions and conditions. Developed in C++
+                using Visual Studio.<br>
+                Skills Demonstrated: C++, Functions, Conditional Statements
+            </li>
+            <li>
+                <strong>Library Management System in C++</strong><br>
+                Description: Created a Library Management System focusing on OOPS, system design, and implementation.
+                Developed in C++.<br>
+                Skills Demonstrated: Object-Oriented Programming (OOPS), System Design, Implementation in C++,
+                Database Management System (DBMS)
+            </li>
+            <li>
+                <strong>Movies Recommendation System in Python (Jupyter Notebook)</strong><br>
+                Description: Developed a Python-based Movies Recommendation System using data analysis techniques.
+                Implemented in Jupyter Notebook.<br>
+                Skills Demonstrated: Python, Data Analysis, Recommendation Systems
+            </li>
+        </ul>
+    </section>
+
+    <section id="internship">
+        <h2>Internship Experience</h2>
+        <p>
+            <strong>Code Clause | July 2023 – August 2023</strong><br>
+            Position: Intern<br>
+            Description: Contributed to an open-source recommendation system project at Code Clause. Collaborated with
+            the team to implement and enhance visual elements for a seamless user experience.<br>
+            Skills Demonstrated: Collaborative Coding, Open-Source Contribution, User Experience Improvement, Version
+            Control (if used)
+        </p>
+    </section>
+
+    <section id="additional-info">
+        <h2>Additional Information</h2>
+        <p>
+            <strong>Technical Skills:</strong><br>
+            Proficient in C, C++, Python, HTML, CSS, JavaScript<br>
+            Solid understanding of web development and machine learning
+        </p>
+        <p>
+            <strong>Soft Skills:</strong><br>
+            Team Leadership, Problem-Solving, Effective Communication (speaker, active listener)
+        </p>
+        <p>
+            <strong>Achievements:</strong><br>
+            Kamla Nehru Puruskar by the state government of Uttarakhand
+        </p>
+    </section>
+
+    <section id="future-goals">
+        <h2>Future Goals</h2>
+        <p class="future-goals">
+            I am enthusiastic about contributing my positive attitude, technical expertise, and collaborative spirit to a
+            professional setting. Eager to continue learning and adapting to new challenges in the ever-evolving field
+            of computer science.
+        </p>
+    </section>
+</body>
+
+</html>
